@@ -3,28 +3,120 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>News Agent Daily</title>
+<meta name="theme-color" content="#0D1117">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<title>AI News — Choose Your Country</title>
 <style>
-  body { margin: 0 auto; max-width: 720px; padding: 48px 24px; font-family: system-ui, -apple-system, sans-serif; color: #1a1f26; background: #ffffff; line-height: 1.6; }
-  h1 { font-size: 28px; letter-spacing: -0.01em; }
+  :root { --ink:#0D1117; --paper:#F7F8FA; --red:#FF3B30; --blue:#2E86FF; --card:#161B24; --muted:#8A94A3; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--ink); color:var(--paper); font-family:system-ui,-apple-system,'Segoe UI',sans-serif; min-height:100vh; }
+  header { display:flex; align-items:center; gap:14px; padding:18px 20px; border-bottom:1px solid #1f2630; }
+  header svg { flex:0 0 auto; }
+  header h1 { font-size:20px; margin:0; letter-spacing:-0.01em; }
+  header h1 span.a { color:var(--paper); } header h1 span.n { color:var(--blue); }
+  header p { margin:2px 0 0; font-size:12.5px; color:var(--muted); }
+  main { max-width:760px; margin:0 auto; padding:20px; }
+  h2 { font-size:14px; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); margin:18px 0 10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; }
+  .desk { background:var(--card); border:1px solid #222b38; border-radius:14px; padding:14px; cursor:pointer; text-align:left; color:var(--paper); font:inherit; }
+  .desk:hover { border-color:var(--blue); }
+  .desk.active { border-color:var(--red); box-shadow:0 0 0 1px var(--red); }
+  .desk .flag { font-size:24px; }
+  .desk .name { font-weight:700; margin-top:6px; }
+  .desk .anchor { font-size:12px; color:var(--muted); margin-top:2px; }
+  .player { margin-top:20px; background:var(--card); border-radius:16px; overflow:hidden; border:1px solid #222b38; }
+  .player .frame { position:relative; padding-top:177%; max-height:70vh; }
+  @media (min-width:600px){ .player .frame { padding-top:56.25%; } }
+  .player iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .meta { display:flex; justify-content:space-between; align-items:center; padding:12px 16px; gap:10px; flex-wrap:wrap; }
+  .meta .who { font-size:14px; } .meta .who b { color:var(--blue); }
+  .meta .when { font-size:12.5px; color:var(--muted); }
+  .live { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--red); margin-right:6px; }
+  .empty { padding:40px 16px; text-align:center; color:var(--muted); font-size:14px; }
+  footer { text-align:center; color:var(--muted); font-size:11.5px; padding:22px 16px; }
+  footer a { color:var(--blue); text-decoration:none; }
 </style>
 </head>
 <body>
-<h1>News Agent Daily</h1>
-<p>Free daily news summary videos — every story sourced, every source named.</p>
-<ul>
-  <li><a href="https://www.youtube.com/@NewsAgentDaily">YouTube: @NewsAgentDaily</a></li>
-  <li><a href="https://www.tiktok.com/@newsagentdaily">TikTok: @newsagentdaily</a></li>
-</ul>
-<!-- RELEASES:BEGIN -->
-<h2>Latest editions - 2026-09-28 (morning)</h2>
-<ul>
-  <li><a href="https://youtu.be/IxgOkNEnBLE">Global</a> <span style="color:#667">with Freja</span></li>
-  <li><a href="https://youtu.be/MXggoJQ0PSI">South Africa</a> <span style="color:#667">with Thandi</span></li>
-  <li><a href="https://youtu.be/cAL0CGTc23Q">India</a> <span style="color:#667">with Priya</span></li>
-  <li><a href="https://youtu.be/m9yyNWhUkRc">United States</a> <span style="color:#667">with Harper</span></li>
-</ul>
-<!-- RELEASES:END -->
-<p><a href="legal/privacy-policy.html">Privacy Policy</a> · <a href="legal/terms-of-service.html">Terms of Service</a></p>
+<header>
+  <svg viewBox="0 0 96 96" width="44" height="44" aria-hidden="true">
+    <rect width="96" height="96" rx="22" fill="#161B24"></rect>
+    <path d="M23 70 L45 22 L73 70" fill="none" stroke="#F7F8FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 52 L63 52" fill="none" stroke="#FF3B30" stroke-width="8" stroke-linecap="round"></path>
+    <path d="M73 70 L73 26" fill="none" stroke="#2E86FF" stroke-width="8" stroke-linecap="round"></path>
+  </svg>
+  <div>
+    <h1><span class="a">AI</span> <span class="n">NEWS</span></h1>
+    <p>Daily bulletins, every story sourced. Pick your desk.</p>
+  </div>
+</header>
+<main>
+  <h2>Choose your country</h2>
+  <div class="grid" id="desks"></div>
+  <div class="player" id="player" hidden>
+    <div class="frame"><iframe id="video" allow="autoplay; encrypted-media" allowfullscreen title="AI News episode"></iframe></div>
+    <div class="meta">
+      <div class="who"><span class="live"></span>Anchored by <b id="anchor"></b></div>
+      <div class="when" id="when"></div>
+    </div>
+  </div>
+  <div class="empty" id="empty" hidden>No episode released for this desk yet today — check back after the next edition.</div>
+</main>
+<footer>
+  Every story carries its source in the description ·
+  <a href="https://www.youtube.com/@NewsAgentDaily" rel="noopener">@NewsAgentDaily on YouTube</a> ·
+  <a href="https://www.tiktok.com/@newsagentdaily" rel="noopener">TikTok</a> ·
+  AI-generated presenters (synthetic media disclosure)<br>
+  <a href="legal/privacy-policy.html">Privacy Policy</a> · <a href="legal/terms-of-service.html">Terms of Service</a>
+</footer>
+<script>
+const FLAGS = { global:"🌍", in:"🇮🇳", sa:"🇿🇦", us:"🇺🇸" };
+const ORDER = ["global","in","sa","us"];  // uk + zw desks retired 2026-09-28
+let releases = { regions:{} };
+
+function ytId(url){ const m = /youtu\.be\/([\w-]+)/.exec(url||""); return m ? m[1] : null; }
+
+function pick(region){
+  try { localStorage.setItem("ain-desk", region); } catch(e){}
+  document.querySelectorAll(".desk").forEach(b => b.classList.toggle("active", b.dataset.region === region));
+  const r = releases.regions[region];
+  const player = document.getElementById("player"), empty = document.getElementById("empty");
+  const id = r && ytId(r.url);
+  if (!id){ player.hidden = true; empty.hidden = false; return; }
+  empty.hidden = true; player.hidden = false;
+  document.getElementById("video").src = "https://www.youtube-nocookie.com/embed/" + id;
+  document.getElementById("anchor").textContent = r.anchor || "AI News";
+  document.getElementById("when").textContent = (r.display || region) + " · " + (r.edition || "") + " edition · " + (r.date || "");
+}
+
+const CATALOG = {
+  global:{display:"Global", anchor:"Freja"},
+  in:{display:"India", anchor:"Priya"},
+  sa:{display:"South Africa", anchor:"Thandi"},
+  us:{display:"United States", anchor:"Harper"}
+};
+
+function render(){
+  const wrap = document.getElementById("desks");
+  wrap.innerHTML = "";
+  const known = Object.assign({}, CATALOG);
+  for (const k in releases.regions) known[k] = Object.assign({}, CATALOG[k], releases.regions[k]);
+  ORDER.filter(k => known[k]).forEach(k => {
+    const info = known[k];
+    const b = document.createElement("button");
+    b.className = "desk"; b.dataset.region = k;
+    b.innerHTML = `<div class="flag">${FLAGS[k]||"📰"}</div><div class="name">${info.display||k}</div><div class="anchor">with ${info.anchor||"AI News"}</div>`;
+    b.addEventListener("click", () => pick(k));
+    wrap.appendChild(b);
+  });
+  let saved = null;
+  try { saved = localStorage.getItem("ain-desk"); } catch(e){}
+  pick(saved && known[saved] ? saved : "global");
+}
+
+fetch("releases.json?v=" + Math.floor(Date.now()/60000), {cache:"no-store"}).then(r => r.json()).then(j => { releases = j; render(); }).catch(render);
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+</script>
 </body>
 </html>
