@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T07:30:09",
+  "generated_at": "2026-09-28T20:30:10",
   "regions": {
     "global": {
       "display": "Global",
@@ -12,25 +12,25 @@
     "sa": {
       "display": "South Africa",
       "anchor": "Thandi",
-      "url": "https://youtu.be/MXggoJQ0PSI",
+      "url": "https://youtu.be/O_eoL0F-UHU",
       "date": "2026-09-28",
-      "edition": "morning",
+      "edition": "late",
       "status": "PUBLIC"
     },
     "in": {
       "display": "India",
       "anchor": "Priya",
-      "url": "https://youtu.be/cAL0CGTc23Q",
-      "date": "2026-09-18",
-      "edition": "afternoon",
+      "url": "https://youtu.be/egw89hKhfc4",
+      "date": "2026-09-28",
+      "edition": "late",
       "status": "PUBLIC"
     },
     "us": {
       "display": "United States",
       "anchor": "Harper",
-      "url": "https://youtu.be/m9yyNWhUkRc",
+      "url": "https://youtu.be/wgc-cwGMJkw",
       "date": "2026-09-28",
-      "edition": "morning",
+      "edition": "late",
       "status": "PUBLIC"
     }
   }
