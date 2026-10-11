@@ -1,36 +1,60 @@
 {
-  "generated_at": "2026-10-01T13:30:10",
+  "generated_at": "2026-10-11T20:30:08",
   "regions": {
     "global": {
       "display": "Global",
       "anchor": "Freja",
-      "url": "https://youtu.be/LGE3xNJEGoc",
-      "date": "2026-09-30",
+      "url": "https://youtu.be/-wZ-d2FyFSM",
+      "date": "2026-10-11",
       "edition": "late",
       "status": "PUBLIC"
     },
     "sa": {
       "display": "South Africa",
       "anchor": "Thandi",
-      "url": "https://youtu.be/8XCNUSJLQ3c",
-      "date": "2026-09-30",
-      "edition": "afternoon",
+      "url": "https://youtu.be/ZUwV0kCwzU4",
+      "date": "2026-10-11",
+      "edition": "late",
       "status": "PUBLIC"
     },
     "in": {
       "display": "India",
       "anchor": "Priya",
-      "url": "https://youtu.be/YExtZbU_pao",
-      "date": "2026-10-01",
-      "edition": "afternoon",
+      "url": "https://youtu.be/0ZynsBdTtns",
+      "date": "2026-10-11",
+      "edition": "late",
       "status": "PUBLIC"
     },
     "us": {
       "display": "United States",
       "anchor": "Harper",
-      "url": "https://youtu.be/CNIzWKUU7rc",
-      "date": "2026-09-30",
-      "edition": "morning",
+      "url": "https://youtu.be/a01B8zeQtjU",
+      "date": "2026-10-11",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "ng": {
+      "display": "Nigeria",
+      "anchor": "Tunde",
+      "url": "https://youtu.be/SneN2lAjdkc",
+      "date": "2026-10-11",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "ke": {
+      "display": "Kenya",
+      "anchor": "Wanjiru",
+      "url": "https://youtu.be/u8XIWDDYSXc",
+      "date": "2026-10-11",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "br": {
+      "display": "Brazil",
+      "anchor": "Camila",
+      "url": "https://youtu.be/kw_FiHRO2k0",
+      "date": "2026-10-11",
+      "edition": "late",
       "status": "PUBLIC"
     }
   }
