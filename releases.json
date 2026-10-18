@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-16T20:30:07",
+  "generated_at": "2026-10-17T20:30:07",
   "regions": {
     "global": {
       "display": "Global",
       "anchor": "Freja",
-      "url": "https://youtu.be/nMaKhOspfk8",
-      "date": "2026-10-16",
+      "url": "https://youtu.be/mde7_SKa-Dw",
+      "date": "2026-10-17",
       "edition": "late",
       "status": "PUBLIC"
     },
     "sa": {
       "display": "South Africa",
       "anchor": "Thandi",
-      "url": "https://youtu.be/tmSTgNWdYxE",
-      "date": "2026-10-16",
+      "url": "https://youtu.be/pndJuv0K74Y",
+      "date": "2026-10-17",
       "edition": "late",
       "status": "PUBLIC"
     },
     "in": {
       "display": "India",
       "anchor": "Priya",
-      "url": "https://youtu.be/i49twJ-_bT8",
-      "date": "2026-10-16",
+      "url": "https://youtu.be/zboS97QK25k",
+      "date": "2026-10-17",
       "edition": "late",
       "status": "PUBLIC"
     },
     "us": {
       "display": "United States",
       "anchor": "Harper",
-      "url": "https://youtu.be/lUWre2jcH_U",
-      "date": "2026-10-16",
+      "url": "https://youtu.be/KIHAGqjwFKk",
+      "date": "2026-10-17",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -52,8 +52,8 @@
     "br": {
       "display": "Brazil",
       "anchor": "Camila",
-      "url": "https://youtu.be/kw_FiHRO2k0",
-      "date": "2026-10-11",
+      "url": "https://youtu.be/oT7l5AVAAS8",
+      "date": "2026-10-17",
       "edition": "late",
       "status": "PUBLIC"
     }
