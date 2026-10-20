@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-17T20:30:07",
+  "generated_at": "2026-10-19T20:30:07",
   "regions": {
     "global": {
       "display": "Global",
       "anchor": "Freja",
-      "url": "https://youtu.be/mde7_SKa-Dw",
-      "date": "2026-10-17",
+      "url": "https://youtu.be/msjcpiGX75w",
+      "date": "2026-10-19",
       "edition": "late",
       "status": "PUBLIC"
     },
     "sa": {
       "display": "South Africa",
       "anchor": "Thandi",
-      "url": "https://youtu.be/pndJuv0K74Y",
-      "date": "2026-10-17",
+      "url": "https://youtu.be/FzeVrxxAMro",
+      "date": "2026-10-19",
       "edition": "late",
       "status": "PUBLIC"
     },
     "in": {
       "display": "India",
       "anchor": "Priya",
-      "url": "https://youtu.be/zboS97QK25k",
-      "date": "2026-10-17",
+      "url": "https://youtu.be/DsJmN-n6rjI",
+      "date": "2026-10-19",
       "edition": "late",
       "status": "PUBLIC"
     },
     "us": {
       "display": "United States",
       "anchor": "Harper",
-      "url": "https://youtu.be/KIHAGqjwFKk",
-      "date": "2026-10-17",
+      "url": "https://youtu.be/yBAh6IBakvw",
+      "date": "2026-10-19",
       "edition": "late",
       "status": "PUBLIC"
     },
