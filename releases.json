@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:30:08",
+  "generated_at": "2026-10-24T20:30:08",
   "regions": {
     "global": {
       "display": "Global",
@@ -20,8 +20,8 @@
     "in": {
       "display": "India",
       "anchor": "Priya",
-      "url": "https://youtu.be/6urJuF2G_RE",
-      "date": "2026-10-22",
+      "url": "https://youtu.be/Rn9rgLrDAuE",
+      "date": "2026-10-24",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -36,8 +36,8 @@
     "ng": {
       "display": "Nigeria",
       "anchor": "Tunde",
-      "url": "https://youtu.be/Nmb4asartPc",
-      "date": "2026-10-16",
+      "url": "https://youtu.be/fa_bwonji0M",
+      "date": "2026-10-24",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -54,6 +54,14 @@
       "anchor": "Camila",
       "url": "https://youtu.be/oT7l5AVAAS8",
       "date": "2026-10-17",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "gh": {
+      "display": "Ghana",
+      "anchor": "Abena",
+      "url": "https://youtu.be/l7HM4rDnOGA",
+      "date": "2026-10-24",
       "edition": "late",
       "status": "PUBLIC"
     }
