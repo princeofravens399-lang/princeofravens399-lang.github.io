@@ -71,8 +71,8 @@
   <a href="legal/privacy-policy.html">Privacy Policy</a> · <a href="legal/terms-of-service.html">Terms of Service</a>
 </footer>
 <script>
-const FLAGS = { global:"🌍", in:"🇮🇳", sa:"🇿🇦", us:"🇺🇸", ng:"🇳🇬", ke:"🇰🇪", br:"🇧🇷", gh:"🇬🇭" };
-const ORDER = ["global","in","sa","us","ng","ke","br","gh"];  // uk + zw desks retired 2026-09-28; ng, ke, br, gh added 2026-10-03
+const FLAGS = { global:"🌍", in:"🇮🇳", sa:"🇿🇦", us:"🇺🇸", ng:"🇳🇬", ke:"🇰🇪", br:"🇧🇷", gh:"🇬🇭", ca:"🇨🇦", cn:"🇨🇳", es:"🇪🇸" };
+const ORDER = ["global","in","sa","us","ng","ke","br","gh","ca","cn","es"];  // uk + zw desks retired 2026-09-28; ng, ke, br, gh added 2026-10-03
 let releases = { regions:{} };
 
 function ytId(url){ const m = /youtu\.be\/([\w-]+)/.exec(url||""); return m ? m[1] : null; }
@@ -98,7 +98,10 @@ const CATALOG = {
   ng:{display:"Nigeria", anchor:"Tunde"},
   ke:{display:"Kenya", anchor:"Wanjiru"},
   br:{display:"Brazil", anchor:"Camila"},
-  gh:{display:"Ghana", anchor:"Abena"}
+  gh:{display:"Ghana", anchor:"Abena"},
+  ca:{display:"Canada", anchor:"Emma"},
+  cn:{display:"China", anchor:"Lian"},
+  es:{display:"Spain", anchor:"Lucia"}
 };
 
 function render(){

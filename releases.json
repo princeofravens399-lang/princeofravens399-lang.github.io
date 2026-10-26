@@ -64,6 +64,30 @@
       "date": "2026-10-25",
       "edition": "late",
       "status": "PUBLIC"
+    },
+    "ca": {
+      "display": "Canada",
+      "anchor": "Emma",
+      "url": "https://youtu.be/IO1_gSQd6WI",
+      "date": "2026-10-24",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "cn": {
+      "display": "China",
+      "anchor": "Lian",
+      "url": "https://youtu.be/rqGObFVeHB8",
+      "date": "2026-10-25",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "es": {
+      "display": "Spain",
+      "anchor": "Lucia",
+      "url": "https://youtu.be/udopr9pxI2I",
+      "date": "2026-10-25",
+      "edition": "late",
+      "status": "PUBLIC"
     }
   }
 }
