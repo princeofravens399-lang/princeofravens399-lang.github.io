@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:30:07",
+  "generated_at": "2026-10-26T20:30:08",
   "regions": {
     "global": {
       "display": "Global",
@@ -43,9 +43,9 @@
     },
     "ke": {
       "display": "Kenya",
-      "anchor": "Wanjiru",
-      "url": "https://youtu.be/UGyjmSORNpw",
-      "date": "2026-10-25",
+      "anchor": "Annie",
+      "url": "https://youtu.be/RDs157w4Lfc",
+      "date": "2026-10-26",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -59,9 +59,9 @@
     },
     "gh": {
       "display": "Ghana",
-      "anchor": "Abena",
-      "url": "https://youtu.be/Sx2UJvnr2V0",
-      "date": "2026-10-25",
+      "anchor": "Annie",
+      "url": "https://youtu.be/TCbuZcTS5FE",
+      "date": "2026-10-26",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -83,9 +83,9 @@
     },
     "es": {
       "display": "Spain",
-      "anchor": "Lucia",
-      "url": "https://youtu.be/udopr9pxI2I",
-      "date": "2026-10-25",
+      "anchor": "Annie",
+      "url": "https://youtu.be/WdE-FPaSbkI",
+      "date": "2026-10-26",
       "edition": "late",
       "status": "PUBLIC"
     }
