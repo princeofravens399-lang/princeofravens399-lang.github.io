@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-26T20:30:08",
+  "generated_at": "2026-10-29T20:30:08",
   "regions": {
     "global": {
       "display": "Global",
-      "anchor": "Freja",
-      "url": "https://youtu.be/OmAWZ15u31Q",
-      "date": "2026-10-25",
+      "anchor": "Annie",
+      "url": "https://youtu.be/Pl4S3JMtMOU",
+      "date": "2026-10-29",
       "edition": "late",
       "status": "PUBLIC"
     },
     "sa": {
       "display": "South Africa",
-      "anchor": "Thandi",
+      "anchor": "Annie",
       "url": "https://youtu.be/hU4rq0OVx1E",
       "date": "2026-10-25",
       "edition": "late",
@@ -19,23 +19,23 @@
     },
     "in": {
       "display": "India",
-      "anchor": "Priya",
-      "url": "https://youtu.be/gAHd6VOxj2Y",
-      "date": "2026-10-25",
+      "anchor": "Annie",
+      "url": "https://youtu.be/dqlFLveJFHg",
+      "date": "2026-10-29",
       "edition": "late",
       "status": "PUBLIC"
     },
     "us": {
       "display": "United States",
-      "anchor": "Harper",
-      "url": "https://youtu.be/s4Ze3ix0D0U",
-      "date": "2026-10-25",
+      "anchor": "Annie",
+      "url": "https://youtu.be/XNFzLpeqYSw",
+      "date": "2026-10-29",
       "edition": "late",
       "status": "PUBLIC"
     },
     "ng": {
       "display": "Nigeria",
-      "anchor": "Tunde",
+      "anchor": "Annie",
       "url": "https://youtu.be/fa_bwonji0M",
       "date": "2026-10-24",
       "edition": "late",
@@ -51,7 +51,7 @@
     },
     "br": {
       "display": "Brazil",
-      "anchor": "Camila",
+      "anchor": "Annie",
       "url": "https://youtu.be/oT7l5AVAAS8",
       "date": "2026-10-17",
       "edition": "late",
@@ -67,7 +67,7 @@
     },
     "ca": {
       "display": "Canada",
-      "anchor": "Emma",
+      "anchor": "Annie",
       "url": "https://youtu.be/IO1_gSQd6WI",
       "date": "2026-10-24",
       "edition": "late",
@@ -75,7 +75,7 @@
     },
     "cn": {
       "display": "China",
-      "anchor": "Lian",
+      "anchor": "Annie",
       "url": "https://youtu.be/rqGObFVeHB8",
       "date": "2026-10-25",
       "edition": "late",
