@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:30:08",
+  "generated_at": "2026-11-02T20:32:08",
   "regions": {
     "global": {
       "display": "Global",
@@ -12,16 +12,16 @@
     "sa": {
       "display": "South Africa",
       "anchor": "Annie",
-      "url": "https://youtu.be/7Up6CejYxus",
-      "date": "2026-11-01",
+      "url": "https://youtu.be/DAAWrEUlKKc",
+      "date": "2026-11-02",
       "edition": "late",
       "status": "PUBLIC"
     },
     "in": {
       "display": "India",
       "anchor": "Annie",
-      "url": "https://youtu.be/OpYJepz85-I",
-      "date": "2026-11-01",
+      "url": "https://youtu.be/gtTeAULyY9Q",
+      "date": "2026-11-02",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -52,8 +52,8 @@
     "br": {
       "display": "Brazil",
       "anchor": "Annie",
-      "url": "https://youtu.be/XYEpMz06Fmc",
-      "date": "2026-11-01",
+      "url": "https://youtu.be/uke3Lrfu7fg",
+      "date": "2026-11-02",
       "edition": "late",
       "status": "PUBLIC"
     },
@@ -68,24 +68,24 @@
     "ca": {
       "display": "Canada",
       "anchor": "Annie",
-      "url": "https://youtu.be/EyHq8_ss5jM",
-      "date": "2026-11-01",
+      "url": "https://youtu.be/P6tNsguIZU0",
+      "date": "2026-11-02",
       "edition": "late",
       "status": "PUBLIC"
     },
     "cn": {
       "display": "China",
       "anchor": "Annie",
-      "url": "https://youtu.be/D0Vj5c1COrc",
-      "date": "2026-11-01",
+      "url": "https://youtu.be/fgcQ_fZMkOo",
+      "date": "2026-11-02",
       "edition": "late",
       "status": "PUBLIC"
     },
     "es": {
       "display": "Spain",
       "anchor": "Annie",
-      "url": "https://youtu.be/TCz1XXw7hs4",
-      "date": "2026-11-01",
+      "url": "https://youtu.be/DBURwnrwn68",
+      "date": "2026-11-02",
       "edition": "late",
       "status": "PUBLIC"
     }
