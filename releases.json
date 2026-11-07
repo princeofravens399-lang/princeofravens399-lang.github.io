@@ -1,34 +1,10 @@
 {
-  "generated_at": "2026-11-05T20:30:08",
+  "generated_at": "2026-11-06T20:32:46",
   "regions": {
     "global": {
       "display": "Global",
       "anchor": "Annie",
       "url": "https://youtu.be/zdzkz6hLZGM",
-      "date": "2026-11-04",
-      "edition": "late",
-      "status": "PUBLIC"
-    },
-    "sa": {
-      "display": "South Africa",
-      "anchor": "Annie",
-      "url": "https://youtu.be/EdD1kkAj4Ko",
-      "date": "2026-11-04",
-      "edition": "late",
-      "status": "PUBLIC"
-    },
-    "in": {
-      "display": "India",
-      "anchor": "Annie",
-      "url": "https://youtu.be/IunIsgM9mWA",
-      "date": "2026-11-05",
-      "edition": "late",
-      "status": "PUBLIC"
-    },
-    "us": {
-      "display": "United States",
-      "anchor": "Annie",
-      "url": "https://youtu.be/N87Bzb3vUe8",
       "date": "2026-11-04",
       "edition": "late",
       "status": "PUBLIC"
@@ -60,32 +36,32 @@
     "gh": {
       "display": "Ghana",
       "anchor": "Annie",
-      "url": "https://youtu.be/zUsGWH7Z5iw",
-      "date": "2026-11-05",
+      "url": "https://youtu.be/qGuQ0eutzD0",
+      "date": "2026-11-06",
       "edition": "late",
       "status": "PUBLIC"
     },
     "ca": {
       "display": "Canada",
       "anchor": "Annie",
-      "url": "https://youtu.be/VQnIF2u7un4",
-      "date": "2026-11-05",
+      "url": "https://youtu.be/cDJfzWHCg8Q",
+      "date": "2026-11-06",
       "edition": "late",
       "status": "PUBLIC"
     },
     "cn": {
       "display": "China",
       "anchor": "Annie",
-      "url": "https://youtu.be/PexlE4rgqXM",
-      "date": "2026-11-04",
+      "url": "https://youtu.be/bFC3ra2A6JQ",
+      "date": "2026-11-06",
       "edition": "late",
       "status": "PUBLIC"
     },
     "es": {
       "display": "Spain",
       "anchor": "Annie",
-      "url": "https://youtu.be/fQalBNEWZCg",
-      "date": "2026-11-04",
+      "url": "https://youtu.be/2iw7NmV4TIk",
+      "date": "2026-11-06",
       "edition": "late",
       "status": "PUBLIC"
     }
