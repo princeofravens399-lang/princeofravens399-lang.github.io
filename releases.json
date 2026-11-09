@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:32:46",
+  "generated_at": "2026-11-08T20:32:01",
   "regions": {
     "global": {
       "display": "Global",
@@ -9,59 +9,75 @@
       "edition": "late",
       "status": "PUBLIC"
     },
+    "sa": {
+      "display": "South Africa",
+      "anchor": "Annie",
+      "url": "https://youtu.be/4lhR5mxGWwg",
+      "date": "2026-11-08",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
+    "us": {
+      "display": "United States",
+      "anchor": "Annie",
+      "url": "https://youtu.be/9xw2H-cnNW4",
+      "date": "2026-11-08",
+      "edition": "late",
+      "status": "PUBLIC"
+    },
     "ng": {
       "display": "Nigeria",
       "anchor": "Annie",
-      "url": "https://youtu.be/T4JtGVEHiSc",
-      "date": "2026-11-04",
+      "url": "https://youtu.be/M6CfK0zUm9s",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     },
     "ke": {
       "display": "Kenya",
       "anchor": "Annie",
-      "url": "https://youtu.be/w50g0zPrRUQ",
-      "date": "2026-11-04",
+      "url": "https://youtu.be/ludVDlRAH_c",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     },
     "br": {
       "display": "Brazil",
       "anchor": "Annie",
-      "url": "https://youtu.be/84zFEa7AiJM",
-      "date": "2026-11-04",
+      "url": "https://youtu.be/HuFdtfPWZmc",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     },
     "gh": {
       "display": "Ghana",
       "anchor": "Annie",
-      "url": "https://youtu.be/qGuQ0eutzD0",
-      "date": "2026-11-06",
+      "url": "https://youtu.be/t8bGZ5-dk8Y",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     },
     "ca": {
       "display": "Canada",
       "anchor": "Annie",
-      "url": "https://youtu.be/cDJfzWHCg8Q",
-      "date": "2026-11-06",
+      "url": "https://youtu.be/0lfwE_R3W7I",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     },
     "cn": {
       "display": "China",
       "anchor": "Annie",
-      "url": "https://youtu.be/bFC3ra2A6JQ",
-      "date": "2026-11-06",
+      "url": "https://youtu.be/534Xn0_SqNA",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     },
     "es": {
       "display": "Spain",
       "anchor": "Annie",
-      "url": "https://youtu.be/2iw7NmV4TIk",
-      "date": "2026-11-06",
+      "url": "https://youtu.be/-x_hYfvHkmg",
+      "date": "2026-11-08",
       "edition": "late",
       "status": "PUBLIC"
     }
